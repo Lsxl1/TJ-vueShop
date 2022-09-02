@@ -11,23 +11,11 @@
 </template>
 
 <script>
-// import store from '@/vuex/store.js'   //vuex
 export default {
   data(){
     return{
     }
   },
-  // watch:{
-  //   'this.$store.state.login.showAll'(newval,oldval)
-  //   {
-  //     if(newval)
-  //       {this.show=newval
-  //       console.log(this.show)}
-  //   }
-  // },
-  // created(){
-  //   let that = this
-  // }
 }
 
 </script>
