@@ -2,7 +2,7 @@
   <div class="detail">
     <v-swiper :message="id"/>
     <v-chose :message="id"/>
-    <v-content/>
+    <v-content :message="id"/>
     <v-baseline/>
     <v-footer/>>
   </div>
@@ -28,7 +28,6 @@ export default {
   beforeCreate(){
     this.id=this.$route.params.id;
     console.log(this.id)
-    //this.$store.dispatch('setDatas');
   }
 }
 </script>
